@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Manager</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h2>User Profile Manager</h2>
+    <div class="form-container">
+     <form id="userForm">
+     <table class="form-table">
+       <tr>
+        <td><label for="name" >Name:</form></label></td>
+        <td><input id="name" type="text" required/></td>
+       </tr>
+       <tr>
+        <td><label for="email" >Email::</form></label></td>
+        <td><input id="email" type="email" required/></td>
+       </tr>
+       <tr>
+        <td><label for="phone" >Phone:</form></label></td>
+        <td><input id="phone" type="text" required maxlength="10" /></td>
+       </tr>
+       <tr>
+        <td><label for="dob" >DOB:</form></label></td>
+        <td><input id="dob" type="date" required/></td>
+       </tr>
+       <tr>
+        <td><label for="role" >Role:</form></label></td>
+        <td>
+            <select id="role" required>
+            <option value="">Select Role</option>
+            <option value="ADMIN">ADMIN</option>
+            <option value="DEVELOPER">Developer</option>
+            <option value="TESTER">Tester</option>
+        </select>
+       </td>
+       </tr>
+       <tr>
+        <td colspan="2" style="text-align: center;">
+            <button type="submit">Add user</button>
+        </td>
+       </tr>
+     </table>
+     </form>
+    </div>
+
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>DOB</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

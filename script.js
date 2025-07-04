@@ -1,4 +1,4 @@
-const apiUrl="https://amitsdlv1234.github.io/user-form/api/users";
+const apiUrl="https://spring-boot-api-vx4c.onrender.com/api/users";
 const tbody=document.querySelector("#userTable tbody");
 const form = document.getElementById('userForm');
 

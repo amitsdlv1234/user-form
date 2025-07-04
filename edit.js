@@ -1,5 +1,5 @@
 
-const apiUrl="https://amitsdlv1234.github.io/user-form/api/users"
+const apiUrl="hhttps://spring-boot-api-vx4c.onrender.com/api/users"
 const params=new URLSearchParams(window.location.search);
 const userId=params.get("id");
 const form=document.getElementById("editForm");
